@@ -7,29 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- CSS et favicon avec chemin absolu depuis la racine -->
-    <link rel="stylesheet" href="/Assets/Css/base.css">
-    <link rel="shortcut icon" href="/Assets/Images/logo.png" type="image/x-icon">
+<link rel="stylesheet" href="/Assets/Css/base.css">    <link rel="shortcut icon" href="/Assets/Images/logo.png" type="image/x-icon">
 
     <title><?= $title ?></title>
 </head>
 
 <body>
     <header>
-        <?php 
-        // Navbar
-        require_once 'Views/Components/navBar.php'; 
-        ?>
+        <?php require_once 'Views/Components/navBar.php';  ?>
     </header>
 
     <main>
         <div class="page">
             <div class="main-content">
                 <div class="container">
-                    <?php 
-                    require_once $template;
-                    ?>
+                    <?php require_once $template;  ?>
                 </div>
             </div>
+
+            <?php  require_once 'Views/Components/sidebar.php';  ?>
         </div>
     </main>
 </body>

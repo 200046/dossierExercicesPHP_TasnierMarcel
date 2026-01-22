@@ -64,3 +64,27 @@ elseif ($path === "/changer-les-unites") {
     // Charge la base du site
     require 'Views/base.php';
 }
+
+// --- Diviseurs premiers ---
+elseif ($path === "/diviseurs-premiers") {
+    if (isset($_POST['envoyer'])) {
+        $nombre = intval($_POST['nombre']);
+        if ($nombre > 1) {
+            $facteurs = decomposeFacteursPremiers($nombre);
+            $resultat = "";
+            $compteur = 0;
+            foreach ($facteurs as $facteur) {
+                $resultat = $resultat . $facteur;
+                $compteur = $compteur + 1;
+                if ($compteur < count($facteurs)) {
+                    $resultat = $resultat . ' × ';
+                }
+            }
+        } else {
+            $resultat = "Veuillez entrer un nombre supérieur à 1.";
+        }
+    }
+    $title = "Décomposition en facteurs premiers";
+    $template = 'Views/ExFacile/diviseurs-premiers.php';
+    require 'Views/base.php';
+}

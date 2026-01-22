@@ -17,23 +17,23 @@ Ce dépôt contient l'ensemble des exercices réalisés en PHP durant l'année s
 ## 📂 Liste des Exercices
 
 ### 🟢 Niveau Facile
-- Conversion 1
-- PGCD
-- Diviseurs premiers
-- Palindrome
-- Retirer une lettre
-- Changer les unités
-- Écriture scientifique
+- Conversion 1 [FAIT]
+- PGCD [PAS FAIT]
+- Diviseurs premiers [FAIT]
+- Palindrome [PAS FAIT]
+- Retirer une lettre [PAS FAIT]
+- Changer les unités [FAIT]
+- Écriture scientifique [PAS FAIT]
 
 ### 🟡 Niveau Moyen
-- Chiffrement
-- Casse-tête 1
-- Mieux que lire l'heure
-- Isomorphiques ou non
-- Entrelacement ou non
+- Chiffrement [PAS FAIT]
+- Casse-tête 1 [PAS FAIT]
+- Mieux que lire l'heure [PAS FAIT]
+- Isomorphiques ou non [PAS FAIT]
+- Entrelacement ou non [PAS FAIT]
 
 ### 🔴 Niveau Difficile
-- Pendu
-- Mastermind
-- Trouver les combinaisons
-- Fonction second degré
+- Pendu [PAS FAIT]
+- Mastermind [PAS FAIT]
+- Trouver les combinaisons [PAS FAIT]
+- Fonction second degré [PAS FAIT]
